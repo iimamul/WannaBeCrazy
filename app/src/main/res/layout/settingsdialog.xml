@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffae8">
+
+    <Button
+        android:id="@+id/multichoicebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Multiple choice mode"
+        android:layout_alignParentTop="true"
+        android:background="#808000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/rightwrongbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/multichoicebtn"
+        android:layout_alignLeft="@+id/multichoicebtn"
+        android:layout_alignRight="@+id/multichoicebtn"
+        android:layout_alignStart="@+id/multichoicebtn"
+        android:layout_below="@+id/multichoicebtn"
+        android:background="#02659a"
+        android:text="Right or Wrong mode" />
+
+</RelativeLayout>
